@@ -13,3 +13,55 @@
 - 표준X
 - 표준이 없기 때문에 도구에 따라서 변환방식이나 생성물다름.
 - 모든 HTML 마크업을 대신X.
+## 사용법
+헤더Headers
+
+큰제목:문서 제목
+==========
+작은제목:문서 부제목
+------------
+#글머리
+##최
+###대
+####6
+#####개까지
+######가능
+> 이것은 블럭 인용 문자
+> > 이것은 두번째
+> > > 이것은 세번째
+1. 첫번째 말
+2. 두번째 말
+3. 세번째 말
+-순서 상관없음
+    +이것도
+        *이것도
+여기서도 들여쓰기중요:
+    이런식으로
+```public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("How to write code");
+  }
+}
+```
+***
+* * *
+*****
+- - -
+---------------------------------------
+모두 수직선 말들기
+링크
+[link keyword][id]
+
+[id]: URL "Optional Title here"
+
+// code
+Link: [Google][googlelink]
+
+[googlelink]: https://google.com "Go google"
+강조들
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~cancelline~~
+줄바꿈은 (   )마지막에 이런식으로 3번 뛰어쓰기
